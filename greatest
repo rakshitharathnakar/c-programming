@@ -1,0 +1,15 @@
+#include<stdio.h>
+void main()
+{
+   int a,b;
+	 printf("enetr two numbers\n");
+	 scanf("%d%d",&a,&b);
+	 if(a>b)
+	 {
+	     printf("%d is a biggest\n",a);
+	 }
+	 else
+	 {
+	    printf("%d is a biggest\n",b);
+		}
+}
